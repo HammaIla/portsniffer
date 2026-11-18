@@ -1,0 +1,19 @@
+{
+  "name": "portsniffer",
+  "version": "1.0.0",
+  "description": "A lightning-fast CLI tool to find and terminate processes squatting on local ports.",
+  "main": "bin/index.js",
+  "bin": {
+    "portsniffer": "bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "author": "Ismail Labaran Ibrahim",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
